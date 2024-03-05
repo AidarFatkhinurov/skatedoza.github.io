@@ -15,10 +15,10 @@ var myImage = document.querySelector("img");
 
 myImage.onclick = function () {
     var mySrc = myImage.getAttribute("src");
-    if (mySrc === "images/iconskatedoza2.jpg") {
+    if (mySrc === "images/iconskatedoza3.png") {
         myImage.setAttribute("src", "images/iconTest.jpg");
     } else {
-        myImage.setAttribute("src", "images/iconskatedoza2.jpg");
+        myImage.setAttribute("src", "images/iconskatedoza3.png");
     }
 };
 
